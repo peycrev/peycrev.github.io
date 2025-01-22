@@ -455,7 +455,7 @@ footer {
 
     h1 {
         font-size: 1.8rem;
-        margin-top: 0; /* Adjusted to fit the layout */
+        color: #2c3e50;
     }
 
     h2 {
@@ -464,6 +464,7 @@ footer {
    
     .content {
         font-size: 0.9rem;
+        max-width: 90%;
     }
 
     .nav-bar ul{
