@@ -15,3 +15,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+function toggleDropdown(button) {
+    const content = button.nextElementSibling;
+    const isExpanded = content.classList.contains('show');
+    
+    // Toggle the arrow
+    button.innerHTML = button.innerHTML.replace(
+        isExpanded ? '▲' : '▼',
+        isExpanded ? '▼' : '▲'
+    );
+    
+    // Toggle the content
+    content.classList.toggle('show');
+}
