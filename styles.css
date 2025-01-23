@@ -251,7 +251,7 @@ footer {
     font-size: 17px;
     color: #2c3e50;
     text-decoration: underline;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: normal;
 }
 
@@ -260,9 +260,11 @@ footer {
 }
 
 .dropdown-content {
+    font-size: 0.95rem;
     display: none;
     padding-left: 0px;
     transition: all 0.3s ease;
+
 }
 
 .dropdown-content.show {
@@ -455,7 +457,7 @@ footer {
 
     h1 {
         font-size: 1.8rem;
-        color: #2c3e50;
+        margin-top: 0; /* Adjusted to fit the layout */
     }
 
     h2 {
@@ -464,11 +466,11 @@ footer {
    
     .content {
         font-size: 0.9rem;
-        max-width: 90%;
     }
 
     .nav-bar ul{
         gap: 4%;
     }
 }
+
 
