@@ -280,13 +280,13 @@ footer {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left:0px;
     border-radius: 5px;
     font-size: 0.9rem;
 }
 
 .abstract p {
-    margin-top: 10px;
+    margin-top: 0px;
     max-width: 1100px;
 }
 
@@ -351,7 +351,7 @@ footer {
     }
 
     .cormac-picture img {
-        max-width: 100px;
+        max-width: 160px !important;
         height: auto;
         margin-bottom: 0; /* Remove bottom margin since we're side by side */
     }
@@ -415,7 +415,7 @@ footer {
     }
 
     .Research-Content p {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 18px !important; 
      
     }
@@ -434,6 +434,11 @@ footer {
     .abstract {
         font-size: 18px !important;  
         margin-left: 0px;
+        margin-top: 0 !important;
+    }
+
+    .abstract p{
+        margin-top: 0 !important;
     }
     
     .bullet-list p {
