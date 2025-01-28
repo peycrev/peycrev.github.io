@@ -231,7 +231,7 @@ footer {
 
 .line a {
    font-size: 0.9rem;
-   margin-top: 10px;    /* Ensures consistent line height */
+   margin-top: 0px;    /* Ensures consistent line height */
 
 }
 
@@ -251,7 +251,7 @@ footer {
     font-size: 17px;
     color: #2c3e50;
     text-decoration: underline;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: normal;
 }
 
@@ -260,9 +260,11 @@ footer {
 }
 
 .dropdown-content {
+    font-size: 0.95rem;
     display: none;
     padding-left: 0px;
     transition: all 0.3s ease;
+
 }
 
 .dropdown-content.show {
@@ -278,7 +280,7 @@ footer {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 20px;
-    margin-left: 0px;
+    margin-left: 15px;
     border-radius: 5px;
     font-size: 0.9rem;
 }
@@ -295,7 +297,7 @@ footer {
     color: #2c3e50;
     cursor: pointer;
     margin-left: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 0.9rem;
 }
 
@@ -311,8 +313,31 @@ footer {
     border-radius: 5px;
 }
 
+
+
 /* Mobile Styles for Screens up to 480px */
 @media (max-width: 480px) {
+    main {
+        flex: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    /* Ensure the main box takes up the full screen */
+    .main-box {
+        width: 100%; /* Full width */
+        height: 100vh; /* Full height */
+        padding: 20px; /* Adjust padding to prevent overflow */
+        border-radius: 0; /* Remove rounded corners */
+        box-shadow: none; /* Remove shadows for a cleaner look */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
     .content-layout {
         display: flex;
         flex-direction: row; /* Keep elements in a row */
@@ -326,7 +351,7 @@ footer {
     }
 
     .cormac-picture img {
-        max-width: 80px;
+        max-width: 85px;
         height: auto;
         margin-bottom: 0; /* Remove bottom margin since we're side by side */
     }
@@ -338,7 +363,7 @@ footer {
 
     /* Adjust text sizing for mobile */
     .content-layout p {
-        font-size: 14px;
+        font-size: 16px;
         width: 100%; 
         margin: 0 0 5px 0;
     }
@@ -347,6 +372,11 @@ footer {
     .content {
         padding: 0;
         margin: 0;
+        
+    }
+    
+    .content p{
+        font-size: 16px;
     }
     /* Navigation Bar Styling */
        /* Navigation Bar Styling */
@@ -357,7 +387,7 @@ footer {
     }
 
     .nav-bar ul {
-        gap: 4%;
+        gap: 5%;
         list-style-type: none;
         display: flex;
         flex-wrap: wrap; /* Prevent wrapping to new line */
@@ -376,7 +406,7 @@ footer {
     }
     
     .nav-bar a {
-        font-size: 13.5px !important; /* Force the font size */
+        font-size: 17px !important; /* Force the font size */
         padding: 1px 0px; /* Reduce padding even more */
         white-space: nowrap;
         text-decoration: none;
@@ -385,26 +415,24 @@ footer {
     }
 
     .Research-Content p {
-    margin-top: 6px;
-    font-size: 11px !important; 
+    margin-top: 10px;
+    font-size: 16px !important; 
      
     }
     .yale-logo {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
+        display: none;
     }
 
     .policy_paper {
         margin-left: 0px !important;
+        font-size: 16px !important; 
     }
     .abstract-toggle{
-        font-size: 11px !important;  
+        font-size: 16px !important;  
         margin-left: 0px;
-        padding: 0px;
     }
     .abstract {
-        font-size: 11px !important;  
+        font-size: 16px !important;  
         margin-left: 0px;
     }
     
@@ -412,31 +440,33 @@ footer {
         margin-left: 0px;
     }
     h2 {
-        font-size: 18px !important; 
+        font-size: 20px !important; 
     }
     h3 {
         padding: 0px;
-        font-size: 15px !important; 
+        font-size: 18px !important; 
 
     }
     h4 {
         margin-left: 0px !important;
-        font-size: 13px !important; 
+        font-size: 18px !important; 
     }
 
-    
+    .line{
+        padding-bottom: 5px;
+    }
     .line a {
-        font-size: 11px !important;  
-       font-size: 0.9rem;
-       margin-top: 10px;    /* Ensures consistent line height */
+        font-size: 16px !important;  
+       margin-top: 0px;    /* Ensures consistent line height */
     }
     
     .dropdown-section{
+        font-size: 16px !important; 
         margin-bottom: 0px;
     }
     .dropdown-btn {
         margin-top: 5px;
-        font-size: 12px;
+        font-size: 16px;
     }
 
 }
@@ -455,7 +485,7 @@ footer {
 
     h1 {
         font-size: 1.8rem;
-        color: #2c3e50;
+        margin-top: 0; /* Adjusted to fit the layout */
     }
 
     h2 {
@@ -464,7 +494,6 @@ footer {
    
     .content {
         font-size: 0.9rem;
-        max-width: 90%;
     }
 
     .nav-bar ul{
