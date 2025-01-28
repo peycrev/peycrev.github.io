@@ -351,7 +351,7 @@ footer {
     }
 
     .cormac-picture img {
-        max-width: 85px;
+        max-width: 100px;
         height: auto;
         margin-bottom: 0; /* Remove bottom margin since we're side by side */
     }
@@ -363,7 +363,7 @@ footer {
 
     /* Adjust text sizing for mobile */
     .content-layout p {
-        font-size: 16px;
+        font-size: 20px;
         width: 100%; 
         margin: 0 0 5px 0;
     }
@@ -376,7 +376,7 @@ footer {
     }
     
     .content p{
-        font-size: 16px;
+        font-size: 18px;
     }
     /* Navigation Bar Styling */
        /* Navigation Bar Styling */
@@ -406,7 +406,7 @@ footer {
     }
     
     .nav-bar a {
-        font-size: 17px !important; /* Force the font size */
+        font-size: 20px !important; /* Force the font size */
         padding: 1px 0px; /* Reduce padding even more */
         white-space: nowrap;
         text-decoration: none;
@@ -416,7 +416,7 @@ footer {
 
     .Research-Content p {
     margin-top: 10px;
-    font-size: 16px !important; 
+    font-size: 18px !important; 
      
     }
     .yale-logo {
@@ -425,48 +425,54 @@ footer {
 
     .policy_paper {
         margin-left: 0px !important;
-        font-size: 16px !important; 
+        font-size: 18px !important; 
     }
     .abstract-toggle{
-        font-size: 16px !important;  
+        font-size: 18px !important;  
         margin-left: 0px;
     }
     .abstract {
-        font-size: 16px !important;  
+        font-size: 18px !important;  
         margin-left: 0px;
     }
     
     .bullet-list p {
         margin-left: 0px;
     }
+
+    h1 {
+        font-size: 30px!important;  
+        margin-top: 5; /* Adjusted to fit the layout */
+    }
+
     h2 {
-        font-size: 20px !important; 
+        font-size: 24px !important; 
     }
     h3 {
         padding: 0px;
-        font-size: 18px !important; 
+        font-size: 20px !important; 
 
     }
     h4 {
         margin-left: 0px !important;
-        font-size: 18px !important; 
+        font-size: 20px !important; 
     }
 
     .line{
         padding-bottom: 5px;
     }
     .line a {
-        font-size: 16px !important;  
+        font-size: 18px !important;  
        margin-top: 0px;    /* Ensures consistent line height */
     }
     
     .dropdown-section{
-        font-size: 16px !important; 
+        font-size: 18px !important; 
         margin-bottom: 0px;
     }
     .dropdown-btn {
         margin-top: 5px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
 }
@@ -500,5 +506,4 @@ footer {
         gap: 4%;
     }
 }
-
 
