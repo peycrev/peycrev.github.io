@@ -319,7 +319,7 @@ footer {
     height: auto;
     align-items: auto;
     display: flex;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .subcategories {
