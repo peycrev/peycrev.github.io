@@ -319,7 +319,7 @@ footer {
     height: auto;
     align-items: auto;
     display: flex;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .subcategories {
@@ -449,7 +449,7 @@ footer {
     }
     
     .nav-bar a {
-        font-size: 16px !important; /* Force the font size */
+        font-size: 14px !important; /* Force the font size */
         padding:0px 0px; /* Reduce padding even more */
         white-space: nowrap;
         text-decoration: none;
@@ -530,7 +530,7 @@ footer {
     }
 
     .teaching-photo {
-        width: 80%; /* Adjust as needed for smaller screens */
+        width: 100% !important; /* Adjust as needed for smaller screens */
         margin-bottom: 1.5em;
     }
 
@@ -568,6 +568,15 @@ footer {
 
     .nav-bar ul{
         gap: 4%;
+    }
+
+    .nav-bar a {
+        font-size: 14px !important; /* Force the font size */
+        padding:0px 0px; /* Reduce padding even more */
+        white-space: nowrap;
+        text-decoration: none;
+        display: block;
+        
     }
 
     .teaching-section {
