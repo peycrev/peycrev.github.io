@@ -175,15 +175,14 @@ h3 {
     margin-top: 15px;
     padding: 0px 0;
     color: #2c3e50;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 h4 {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin-left: 0px;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16px;
+    font-weight: strong;
+    font-size: 0.95rem;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 0px 0;
@@ -324,8 +323,8 @@ footer {
 
 .subcategories {
     margin-left: 0em;        /* Indents the whole block */
-    padding-left: 1em;       /* Adds spacing inside the block */
-    border-left: 0.5px solid #ccc; /* Optional: vertical line to visually separate */
+    /* padding-left: 1em;       /* Adds spacing inside the block */
+    /* border-left: 0.5px solid #ccc; Optional: vertical line to visually separate */ 
 }
 
 .subcategories h4 {
@@ -337,7 +336,7 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 2em;
+    margin-top: 1.5em;
     gap: 2em;
     flex-wrap: wrap; /* Allows responsiveness */
 }
@@ -576,7 +575,7 @@ footer {
     }
 
     .teaching-section {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: left;
         text-align: left;
     }
