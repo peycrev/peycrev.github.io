@@ -527,7 +527,7 @@ footer {
 
     .teaching-photo {
         width: 100% !important; /* Adjust as needed for smaller screens */
-        margin-bottom: 1.5em;
+        margin-bottom: 0em !important;
     }
 
     .teaching-text {
