@@ -47,11 +47,11 @@ main {
     width: 90%;
     min-height: 645px;
     background-color: #fff;
-    padding-bottom: 125px;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     text-align: left;
+    padding-bottom: 125px;
     display: flex;
     flex-direction: column;
 }
