@@ -51,8 +51,8 @@ main {
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     text-align: left;
-    padding-bottom: 125px;
     display: flex;
+    padding-bottom: 125px;
     flex-direction: column;
 }
 
@@ -147,6 +147,7 @@ body.page-cv .nav-bar{
 /* Yale Logo Styling */
 .yale-logo {
     position: absolute;
+    padding-left: 10px;
     bottom: 20px;
     right: 20px;
 }
@@ -461,6 +462,7 @@ footer {
     }
     .yale-logo {
         display: none;
+        /* margin-left: 5px; */
     }
 
     .policy_paper {
