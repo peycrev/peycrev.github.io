@@ -371,7 +371,7 @@ footer {
     /* Ensure the main box takes up the full screen */
     .main-box {
         width: 100%; /* Full width */
-        height: 100vh; /* Full height */
+        min-height: 100vh; /* Full height */
         padding: 20px; /* Adjust padding to prevent overflow */
         border-radius: 0; /* Remove rounded corners */
         box-shadow: none; /* Remove shadows for a cleaner look */
